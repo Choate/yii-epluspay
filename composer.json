@@ -1,0 +1,22 @@
+{
+  "name": "choate/yii-epluspay",
+  "description": "CMBC E Plus Pay Yii 2 extension",
+  "type": "library",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Choate",
+      "email": "choate.yao@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "ramsey/uuid": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "choate\\yii\\epluspay\\": "src/"
+    }
+  }
+}
